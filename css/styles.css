@@ -1,0 +1,127 @@
+/* Tag Style*/
+body {
+
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /* Font */
+}
+
+h1 {
+  color: #1A5F7A;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #1A5F7A;
+    font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #086E7D;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Class Style*/
+.skill-row{
+  width: 50%; /*important it makes pic to left rather than centre solution is in the next line*/
+  margin: auto;
+  margin: 100px auto 100 auto;
+  text-align: left;
+  line-height: 2;
+}
+.webdev{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+
+}
+.sleep{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.pic {
+  border-radius: 100px;
+}
+
+.top-container {
+  background-color: #FFF89A;
+  position: relative;
+  padding-top: 10px;
+}
+.hpro{
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  top: 140px;
+}
+
+.top-cloud {
+  height: 100px;
+  width: auto;
+}
+
+.h1 {
+  top: 0;
+}
+
+.p {
+  position: absolute;
+  top: 500;
+}
+
+.mountain {
+  width: 100%;
+}
+
+.middle-container {
+    padding-bottom: 30px;
+}
+
+.bottom-container {
+  padding-top: 10px;
+  background-color:#3498db;
+}
+
+  .btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
